@@ -1,0 +1,142 @@
+ @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600&display=swap');
+
+/* Generales */
+
+ * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #000;
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+}
+
+p {
+    font-size: 18px;
+}
+
+/* Header */
+
+header {
+    background-color: #000;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+ /* Hero */
+
+.imagen-principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ .imagen-principal img {
+    width: 100%;
+}
+
+ /* Info */
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px
+}
+
+.contenedor-texto, .contenedor-imagen {
+    width: 400px;
+    margin: 50px;
+}
+
+.contenedor-texto p {
+    margin-bottom: 1rem;
+}
+
+.contenedor-imagen img {
+    width: 100%;
+}
+
+ /* Caracteristicas */
+
+.caracteristicas {
+    background-color: #1E1A13;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+.caracteristicas h3 {
+    font-size: 35px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.contenedor-iconos {
+    display: flex;
+}
+    
+.icono{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.icono p {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+/* Galeria */
+
+.galeria {
+    display: flex;
+    padding: 50px 100px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.galeria .foto {
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    margin: 10px;
+}
+
+.galeria .foto img {
+    max-height: 100%
+}
+
+/* Footer */
+
+footer {
+    background-color: #1E1A13;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #cffb9d;
+    font-weight: 800;
+}
+
+footer a:visited {
+    color: #dbf281;
+}
+
+footer a:hover {
+    color: #e5ee67;
+}
