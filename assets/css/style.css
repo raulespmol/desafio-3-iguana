@@ -18,11 +18,6 @@ p {
     font-size: 18px;
 }
 
-i {
-    font-size: 3rem;
-    margin-bottom: 1rem;
-}
-
 /* Header */
 
 header {
@@ -55,13 +50,17 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px
+    padding: 100px;
+    gap: 150px;
 }
 
-.contenedor-texto, .contenedor-imagen {
-    width: 400px;
-    margin: 50px;
+.contenedor-imagen {
+    width: 30%;
 }
+
+.contenedor-texto {
+    width: 45%;
+} 
 
 .contenedor-texto p {
     margin-bottom: 1rem;
@@ -89,6 +88,7 @@ h1 {
 
 .contenedor-iconos {
     display: flex;
+    gap: 20px
 }
     
 .icono{
@@ -98,9 +98,14 @@ h1 {
     padding: 10px;
 }
 
+.icono i {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
 .icono p {
     font-size: 30px;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 /* Galeria */
